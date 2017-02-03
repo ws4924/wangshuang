@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!--标准mui.css-->
+    <link rel="stylesheet" href="css/mui.min.css">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/icons-extra.css">
+    <link rel="stylesheet" type="text/css" href="css/feedback-page.css" />
+  </head>
+  <body>
+    <!--footer-->
+    <nav class="mui-bar mui-bar-tab">
+      <a class="mui-tab-item mui-active" href="#tabbar">
+        <span class="mui-icon mui-icon-home"></span>
+        <span class="mui-tab-label">首页</span>
+      </a>
+      <a class="mui-tab-item" href="#tabbar-with-chat">
+        <span class="mui-icon mui-icon-email"></span>
+        <span class="mui-tab-label">品牌介绍</span>
+      </a>
+      <!-- <a class="mui-tab-item" href="#tabbar-with-contact">
+        <span class="mui-icon mui-icon-contact"></span>
+        <span class="mui-tab-label">通讯录</span>
+      </a> -->
+      <a class="mui-tab-item" href="#tabbar-with-map">
+        <span class="mui-icon mui-icon-gear"></span>
+        <span class="mui-tab-label">用户中心</span>
+      </a>
+    </nav>
+    <!--footer-->
+    <div class="mui-content" style="margin-top:44px;">
+      <div id="tabbar" class="mui-control-content mui-active">
+        <header class="mui-bar mui-bar-nav">
+          <a class="mui-icon mui-icon-extra mui-icon-extra-custom mui-pull-right"></a>
+          <h1 class="mui-title">首页</h1>
+        </header>
+        <!--轮播开始-->
+        <div id="slider" class="mui-slider" style="margin-top:44px;">
+          <div class="mui-slider-group mui-slider-loop">
+            <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+            <div class="mui-slider-item mui-slider-item-duplicate">
+              <a href="#">
+                <img src="img/banner4.png">
+              </a>
+            </div>
+            <!-- 第一张 -->
+            <div class="mui-slider-item">
+              <a href="#">
+                <img src="img/banner1.png">
+              </a>
+            </div>
+            <!-- 第二张 -->
+            <div class="mui-slider-item">
+              <a href="#">
+                <img src="img/banner2.png">
+              </a>
+            </div>
+            <!-- 第三张 -->
+            <div class="mui-slider-item">
+              <a href="#">
+                <img src="img/banner3.png">
+              </a>
+            </div>
+            <!-- 第四张 -->
+            <div class="mui-slider-item">
+              <a href="#">
+                <img src="img/banner4.png">
+              </a>
+            </div>
+            <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+            <div class="mui-slider-item mui-slider-item-duplicate">
+              <a href="#">
+                <img src="img/banner1.png">
+              </a>
+            </div>
+          </div>
+          <div class="mui-slider-indicator">
+            <div class="mui-indicator mui-active"></div>
+            <div class="mui-indicator"></div>
+            <div class="mui-indicator"></div>
+            <div class="mui-indicator"></div>
+          </div>
+        </div>
+        <!--轮播结束-->
+        <!--九宫格开始-->
+        <div class="mui-content">
+          <ul class="mui-table-view mui-grid-view mui-grid-9">
+              <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+                <a href="#">
+                  <span class="mui-icon"><img src="homeImg/ico-1.png"></span>
+                  <div class="mui-media-body">保险</div>
+                </a>
+              </li>
+              <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+                <a href="#">
+                  <span class="mui-icon"><img src="homeImg/ico-2.png"></span>
+                  <div class="mui-media-body">理赔</div>
+                </a>
+              </li>
+              <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+                <a href="#">
+                  <span class="mui-icon"><img src="homeImg/ico-3.png"></span>
+                  <div class="mui-media-body">保养</div>
+                </a>
+              </li>
+              <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+                <a href="#">
+                  <span class="mui-icon"><img src="homeImg/ico-4.png"></span>
+                  <div class="mui-media-body">行车档案</div>
+                </a>
+              </li>
+              <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+                <a href="#">
+                  <span class="mui-icon"><img src="homeImg/ico-5.png"></span>
+                  <div class="mui-media-body">吐槽</div>
+                </a>
+              </li>
+              <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+                <a href="#">
+                  <span class="mui-icon"><img src="homeImg/ico-7.png"></span>
+                  <div class="mui-media-body">洗车</div>
+                </a>
+              </li>
+              <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+                <a href="#">
+                  <span class="mui-icon"><img src="homeImg/ico-9.png"></span>
+                  <div class="mui-media-body">品牌报价</div>
+                </a>
+              </li>
+          </ul> 
+        </div>
+        <!--九宫格结束-->
+        <div class="home-btn-yy">
+          <button type="button" class="mui-btn">
+          <span class="mui-icon-extra mui-icon-extra-outline"></span>
+            在线预约
+          </button>
+        </div>
+      </div>
+
+      <div id="tabbar-with-chat" class="mui-control-content">
+        <header class="mui-bar mui-bar-nav">
+          <h1 class="mui-title">品牌介绍</h1>
+        </header>
+        <img style="width:100%;" src="img/introduce.png">
+      </div>
+
+      <div id="tabbar-with-map" class="mui-control-content">
+        <header class="mui-bar mui-bar-nav">
+          <a class="mui-pull-right"></a>
+          <h1 class="mui-title">用户中心</h1>
+        </header>
+          <ul class="mui-table-view con-li-fl">
+            <li class="">
+              <a class="">我的钱包</a>
+            </li>
+            <li class="">
+              <a class="">我的积分</a>
+            </li>
+            <li class="">
+              <a class="">我的卷</a>
+            </li>
+          </ul>
+          <ul class="mui-table-view mui-table-view-chevron" style="margin-top:25px;">
+            <li class="mui-table-view-cell">
+              <a href="javascript:void(0)" id="" class="mui-navigate-right">
+                <img class="user-img-size" src="img/userImg/user_01.png">
+                我的订单<span style="float:right;">查看全部订单</span>
+              </a>
+            </li>
+          </ul>
+          <ul class="mui-table-view mui-table-view-chevron" style="margin-top:25px;">
+            <li class="mui-table-view-cell">
+              <a href="javascript:void(0)" class="mui-navigate-right">
+                <img class="user-img-size" src="img/userImg/user_02.png">
+                我的车库
+              </a>
+            </li>
+            <li class="mui-table-view-cell">
+              <a href="javascript:void(0)" class="mui-navigate-right">
+                <img class="user-img-size" src="img/userImg/user_03.png">
+                我的保单
+              </a>
+            </li>
+            <li class="mui-table-view-cell">
+              <a href="javascript:void(0)" class="mui-navigate-right">
+                <img class="user-img-size" src="img/userImg/user_04.png">
+                行车档案
+              </a>
+            </li>
+          </ul>
+          <ul class="mui-table-view mui-table-view-chevron" style="margin-top:25px;">
+            <li class="mui-table-view-cell">
+              <a href="javascript:void(0)" class="mui-navigate-right">
+                <img class="user-img-size" src="img/userImg/user_05.png">
+                常见问题
+              </a>
+            </li>
+            <li class="mui-table-view-cell">
+              <a id="abc" class="mui-navigate-right">
+                <img class="user-img-size" src="img/userImg/user_06.png">
+                意见反馈
+              </a>
+            </li>
+            <li class="mui-table-view-cell">
+              <a href="javascript:void(0)" class="mui-navigate-right">
+                <img class="user-img-size" src="img/userImg/user_07.png">
+                关于我们
+              </a>
+            </li>
+            <li class="mui-table-view-cell">
+              <a href="javascript:void(0)" class="mui-navigate-right">
+                <img class="user-img-size" src="img/userImg/user_08.png">
+                推荐给好友
+              </a>
+            </li>
+          </ul>
+          <ul class="mui-table-view mui-table-view-chevron" style="margin-top:25px;">
+            <li class="mui-table-view-cell">
+              <a href="javascript:void(0)" class="mui-navigate-right">
+                <img class="user-img-size" src="img/userImg/user_09.png">
+                退出
+              </a>
+            </li>
+          </ul>
+      </div>
+      
+
+      <div id="abc" class="mui-page">
+      <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+          <span class="mui-icon mui-icon-left-nav"></span>135
+        </button>
+        <h1 class="mui-center mui-title">1234</h1>
+      </div>
+      <div class="mui-page-content">
+      123
+      </div>
+    </div>
+    <script src="js/mui.min.js"></script>
+  </body>
+</html>
